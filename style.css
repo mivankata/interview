@@ -1,0 +1,45 @@
+body {
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    background-color: aliceblue;
+}
+
+.header {
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+  column-count:12;
+  column-width: 300px;
+  /* columns: 3 250px;*/
+} 
+
+h1 {
+    font-size: 80px;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+  
+}
+h2 {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 2px;
+    
+    
+}
+.q {
+    
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 20px;
+    
+    
+}
+
+img {
+    
+    width:330px;
+filter: grayscale(100%);
+}
