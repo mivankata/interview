@@ -1,45 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Tillana:wght@400;600;700;800&display=swap');
+
 body {
-    margin-left: 5%;
-    margin-top: 5%;
-    margin-bottom: 10%;
+margin: 20px;
     background-color: aliceblue;
+    color:dodgerblue;
+    margin-right: 40px;
 }
 
-.header {
-    text-align: center;
-    padding: 10px;
+#titles {
+    margin-top: 0px;
+}
+
+h1 {
+    font-family: 'Averia Libre', cursive;
+    font-size: 90px;
+    line-height: 80px;
+    font-weight:600;
+}
+
+h2 {
+    font-family: 'Averia Libre', cursive;
+    font-size: 16px;
+    font-weight: 100;
 }
 
 .container {
-  column-count:12;
-  column-width: 300px;
-  /* columns: 3 250px;*/
-} 
-
-h1 {
-    font-size: 80px;
-    font-family: sans-serif;
-    margin-bottom: 5px;
-  
+  margin-top: 0px;
+  display: grid;
+  grid-column-gap: 40px;
+  grid-template-columns: repeat(16, 2fr);
+  height: 800px;
+  width: 7000px;
+  overflow-x: scroll;
 }
-h2 {
-    font-size: 20px;
-    font-family: sans-serif;
-    margin-bottom: 2px;
-    
-    
+
+.column {
+  height: 100%;
 }
 .q {
-    
-    font-size: 20px;
-    font-style: italic;
+
+    font-size: 27px;
+    font-family: 'Averia Libre', cursive;
+    font-weight: 600;
+    font-variant-caps: all-caps;
     margin-bottom: 20px;
-    
-    
+
+}
+
+.a {
+    font-size: 16px;
+    font-family: 'Averia Libre', cursive;
+    font-weight: 100;
 }
 
 img {
-    
-    width:330px;
-filter: grayscale(100%);
+    width: 440px;
+    margin-top: 27px;
+     -webkit-filter: grayscale(100%);
 }
+
+
+
